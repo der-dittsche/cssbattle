@@ -1,115 +1,62 @@
-<div class="a"></div>
-<div class="b"></div>
+<div class="dev">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="a"></div>
+    <div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <style>
+            * {
+                margin: 0px;
+                background-color: #6592CF;
+            }
 
-<div class="ab"></div>
-<div class="bb"></div>
+            .dev {
+                position: fixed;
+                top: 50;
+                left: 130;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+            }
 
-<div class="ac"></div>
-<div class="bc"></div>
+            .a {
+                width: 20px;
+                height: 110px;
+                background: #060F55;
+                border-radius: 100px 100px 0 0;
+            }
 
-<div class="ad"></div>
-<div class="c"></div>
-<div class="d"></div>
-<style>
-    * {
-        margin: 0px;
-        background-color: #6592CF;
-    }
+            .b {
+                z-index: 2;
+                width: 20px;
+                height: 110px;
+                background: #6592CF;
+                border-radius: 0 0 100px 100px;
+            }
 
+            .c {
+                position: fixed;
+                z-index: 1;
+                top: 150px;
+                left: 130px;
+                width: 140px;
+                height: 100px;
+                background: #060F55;
+                border-radius: 0 0 100px 100px;
+            }
 
-    .a {
-        position: absolute;
-        margin-left: 130px;
-        margin-top: 50px;
-        width: 20px;
-        height: 110px;
-        background: #060F55;
-        border-radius: 100px 100px 0 0;
-    }
-
-    .b {
-        position: absolute;
-        z-index: 2;
-        margin-left: 150px;
-        margin-top: 50px;
-        width: 20px;
-        height: 110px;
-        background: #6592CF;
-        border-radius: 0 0 100px 100px;
-
-    }
-
-    .ab {
-        position: absolute;
-        margin-left: 170px;
-        margin-top: 50px;
-        width: 20px;
-        height: 110px;
-        background: #060F55;
-        border-radius: 100px 100px 0 0;
-    }
-
-    .bb {
-        position: absolute;
-        z-index: 2;
-        margin-left: 190px;
-        margin-top: 50px;
-        width: 20px;
-        height: 110px;
-        background: #6592CF;
-        border-radius: 0 0 100px 100px;
-    }
-
-    .ac {
-        position: absolute;
-        margin-left: 210px;
-        margin-top: 50px;
-        width: 20px;
-        height: 110px;
-        background: #060F55;
-        border-radius: 100px 100px 0 0;
-    }
-
-    .bc {
-        position: absolute;
-        z-index: 2;
-        margin-left: 230px;
-        margin-top: 50px;
-        width: 20px;
-        height: 110px;
-        background: #6592CF;
-        border-radius: 0 0 100px 100px;
-
-    }
-
-    .ad {
-        position: absolute;
-        margin-left: 250px;
-        margin-top: 50px;
-        width: 20px;
-        height: 110px;
-        background: #060F55;
-        border-radius: 100px 100px 0 0;
-    }
-
-    .c {
-        position: absolute;
-        z-index: 1;
-        margin-top: 150px;
-        margin-left: 130px;
-        width: 140px;
-        height: 100px;
-        background: #060F55;
-        border-radius: 0 0 100px 100px;
-    }
-
-    .d {
-        position: absolute;
-        z-index: 1;
-        margin-top: 200px;
-        margin-left: 190px;
-        width: 20px;
-        height: 100px;
-        background: #060F55;
-    }
-</style>
+            .d {
+                position: fixed;
+                z-index: 1;
+                top: 200px;
+                left: 190px;
+                width: 20px;
+                height: 100px;
+                background: #060F55;
+            }
+        </style>
