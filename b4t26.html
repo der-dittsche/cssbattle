@@ -1,0 +1,41 @@
+<div>
+    <div class="a"></div>
+    <div class="a"></div>
+</div>
+<div class="hr"></div>
+<div>
+    <div class="a b"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        background: #6592CF
+    }
+
+    div {
+        display: flex;
+        width: 400px;
+        height: 150px;
+        background: #6592CF;
+        justify-content: space-evenly;
+    }
+
+    .hr {
+        height: 10;
+        background: #6592CF;
+    }
+
+    .a {
+        margin: 40px;
+        width: 80px;
+        height: 40px;
+        background: #6592CF;
+        border-radius: 200px 200px 0 0;
+        border: 20px solid #060F55;
+        border-bottom: 0;
+    }
+
+    .b {
+        transform: rotate(180deg);
+    }
+</style>
