@@ -1,0 +1,53 @@
+<div class="cir"></div>
+<div class="tra"></div>
+<div class="tri"></div>
+<div class="box"></div>
+<style>
+    body {
+        background: #191919;
+        display: flex;
+        align-items: center;
+    }
+
+    .box {
+        position: absolute;
+        margin-left: 67px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border-left: 100px;
+        background: #5DBCF9
+    }
+
+    .tri {
+        position: absolute;
+        margin-left: -8px;
+        width: 0px;
+        height: 0px;
+        border-top: 100px solid transparent;
+        border-right: 100px solid #5DBCF9;
+        border-bottom: 100px solid transparent;
+        border-left: 100px solid transparent;
+    }
+
+    .cir {
+        position: absolute;
+        margin-left: 177px;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        box-shadow:
+            0 0 0 10px #5DBCF9,
+            0 0 0 25px #191919,
+            0 0 0 35px #5DBCF9,
+            0 0 0 50px #191919,
+            0 0 0 60px #5DBCF9;
+    }
+
+    .tra {
+        position: absolute;
+        width: 217px;
+        height: 250px;
+        background: #191919
+    }
+</style>
